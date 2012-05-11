@@ -12,7 +12,7 @@
  *
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
                 if (host == nil) {
                     // Host not found, let's try to match against a pattern...
                     if (!opts.force()) {
-                        std::cerr << "Sorry master, I require you to use the --force in order to delete hostnames with a pattern..." << std::endl;
+                        std::cerr << "Sorry master, I require you to use the --force in order to delete hostnames using a pattern..." << std::endl;
                         if (geteuid() != 0) std::cerr << "(Remember to use 'sudo' to become superuser)" << std::endl;
                         rc = -1;
                     } else {
@@ -140,7 +140,7 @@ int main(int argc, char *argv[])
                 std::cout << "Deleted " << total_clean << " records." << std::endl;
             }
             break;
-        
+
     }
 
     // [results enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
