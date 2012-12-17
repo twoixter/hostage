@@ -2,13 +2,15 @@
 
 **Hostage** is a command line utility to manage local hostnames, inspired by the Ghost GEM for ruby.
 
+## NOTE: Currently, it doesn't work in OSX Lion / Mountain Lion. Looking for a fix.
+
 Tipically this is done editing `/etc/hosts` on Unix systems, but with Mac OS X we can use the Open Directory Services as an alternative. I prefer not to mess with system files, I want to keep my `/etc/hosts` file as clean as possible...
 
 # Compiling and installing hostage
 
 ## Requirements
 
-* MacOSX
+* Mac OS X
 * CMAKE (Install with Mac Ports or similar)
 
 ## For the impatient
